@@ -1,0 +1,48 @@
+/*
+  Template:twentyseventeen
+  Theme Name:twentyseventeen_child
+  Theme URI:
+  Description:
+  Author:kodiful
+  Version:1.0
+*/
+
+@import url("../twentyseventeen/style.css");
+
+/*html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+        font-family: "メイリオ", "Meiryo", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}*/
+
+.twentyseventeen-front-page .site-content {
+	padding: 5.5em 0 0;
+}
+
+h2.widget-title {
+	font-size: 1rem;
+    text-transform: none;
+}
+
+.page .panel-content .entry-title,
+.page-title,
+body.page .entry-title,
+body.page:not(.twentyseventeen-front-page) .entry-title {
+	font-size: 26pt;
+	font-size: 1.625rem;
+    text-transform: none;
+}
+
+.page.page-one-column .entry-header,
+.twentyseventeen-front-page.page-one-column .entry-header,
+.archive.page-one-column:not(.has-sidebar) .page-header {
+	margin-bottom: 0;
+}
+
+a:hover svg {
+	opacity: 0.3;
+}
+
+.site-title {
+    text-transform: none;
+	font-family: Courier, Monaco;
+	font-weight: normal !important;
+}
