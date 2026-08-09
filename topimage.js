@@ -64,13 +64,11 @@ const images = [
 function select_random_image() {
     const image = images[Math.floor(Math.random() * images.length)];
     const img = document.getElementById('wp-custom-header').querySelector('img')
-    img.srcset = "";
     img.src = "TOPIMAGES/" + image;
 }
 
 function select_random_image2() {
     const image = images[Math.floor(Math.random() * images.length)];
     const img = document.getElementById('wp-custom-header').querySelector('img')
-    img.srcset = "";
     img.src = "../TOPIMAGES/" + image;
 }
